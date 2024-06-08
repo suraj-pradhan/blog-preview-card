@@ -1,19 +1,42 @@
+@font-face {
+  font-family: figtree;
+  src: url(/assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
+  font-family: figtree;
   background-color: #f4d04e;
 }
 
 .main-container {
   width: 384px;
-  height: 522px;
+  height: 546px;
   background-color: white;
   margin: 100px 528px;
   border-radius: 20px;
   border: 1px solid black;
   padding: 24px 24px;
+  position: absolute;
+  z-index: 3;
+}
+
+.card-container {
+  position: relative;
+}
+
+.card-outline {
+  position: absolute;
+  width: 384px;
+  height: 546px;
+  background: black;
+  border-radius: 18px;
+  top: 150px;
+  right: 607px;
+  z-index: 2;
 }
 
 .image-container img {

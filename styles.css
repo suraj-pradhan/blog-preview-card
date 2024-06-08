@@ -16,11 +16,12 @@ body {
   width: 384px;
   height: 546px;
   background-color: white;
-  margin: 100px 528px;
   border-radius: 20px;
   border: 1px solid black;
   padding: 24px 24px;
   position: absolute;
+  top: 139px;
+  right: 618px;
   z-index: 3;
 }
 
